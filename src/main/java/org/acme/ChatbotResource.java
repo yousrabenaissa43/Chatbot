@@ -1,18 +1,21 @@
 package org.acme;
 
 
-import jakarta.ws.rs.GET;
-import jakarta.ws.rs.Path;
-import jakarta.ws.rs.Produces;
+import jakarta.inject.Inject;
+import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("/chatbot")
 public class ChatbotResource {
-    ChatbotService chatbotService ;
 
-    @GET
-    @Produces(MediaType.APPLICATION_JSON)
-    public String getProduct() {
-        return "{\"type\": \"chemise\", \"couleur\": \"blanche\", \"qualité\": \"haute\", \"prix\": \"50$\"}";
+    @Inject
+    ChatbotService chatbotService ;}
+
+   /* @POST
+    @Produces(MediaType.TEXT_PLAIN)
+    @Consumes(MediaType.TEXT_PLAIN)
+    public String chat(String body ) {
+        return chatbotService.chat(body);
     }
-}
+}*/
+
