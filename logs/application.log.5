@@ -1,0 +1,44 @@
+2024-11-18 21:47:55,589 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[25116] WARN  [io.qua.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.langchain4j.ollama.embedding-model.model-name" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+2024-11-18 21:47:55,589 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[25116] WARN  [io.qua.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.langchain4j.ollama.chat-model.model-name" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+2024-11-18 21:47:55,589 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[25116] WARN  [io.qua.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.http.client.timeout" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+2024-11-18 21:47:59,103 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[25116] WARN  [io.agr.pool] (agroal-11) Datasource '<default>': FATAL: authentification par mot de passe �chou�e pour l'utilisateur  � Mega_PC �
+2024-11-18 21:47:59,140 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[25116] ERROR [io.qua.run.Application] (Quarkus Main Thread) Failed to start application: java.lang.RuntimeException: Failed to start quarkus
+	at io.quarkus.runner.ApplicationImpl.doStart(Unknown Source)
+	at io.quarkus.runtime.Application.start(Application.java:101)
+	at io.quarkus.runtime.ApplicationLifecycleManager.run(ApplicationLifecycleManager.java:119)
+	at io.quarkus.runtime.Quarkus.run(Quarkus.java:71)
+	at io.quarkus.runtime.Quarkus.run(Quarkus.java:44)
+	at io.quarkus.runtime.Quarkus.run(Quarkus.java:124)
+	at io.quarkus.runner.GeneratedMain.main(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.runner.bootstrap.StartupActionImpl$1.run(StartupActionImpl.java:116)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Error starting Liquibase
+	at io.quarkus.liquibase.runtime.LiquibaseRecorder.doStartActions(LiquibaseRecorder.java:93)
+	at io.quarkus.deployment.steps.LiquibaseProcessor$startLiquibase1744275855.deploy_0(Unknown Source)
+	at io.quarkus.deployment.steps.LiquibaseProcessor$startLiquibase1744275855.deploy(Unknown Source)
+	... 11 more
+Caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: FATAL: authentification par mot de passe �chou�e pour l'utilisateur  � Mega_PC �
+	at io.quarkus.liquibase.LiquibaseFactory.createLiquibase(LiquibaseFactory.java:138)
+	at io.quarkus.liquibase.LiquibaseFactory_1d48OwssPZoQytD2p8kGRAP54yY_Synthetic_ClientProxy.createLiquibase(Unknown Source)
+	at io.quarkus.liquibase.runtime.LiquibaseRecorder.doStartActions(LiquibaseRecorder.java:70)
+	... 13 more
+Caused by: org.postgresql.util.PSQLException: FATAL: authentification par mot de passe �chou�e pour l'utilisateur  � Mega_PC �
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:711)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at io.agroal.pool.ConnectionFactory.createConnection(ConnectionFactory.java:225)
+	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:580)
+	at io.agroal.pool.ConnectionPool$CreateConnectionTask.call(ConnectionPool.java:561)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at io.agroal.pool.util.PriorityScheduledExecutor.beforeExecute(PriorityScheduledExecutor.java:75)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	... 1 more
+
+2024-11-18 21:47:59,215 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[25116] INFO  [io.qua.dep.dev.IsolatedDevModeMain] (main) Attempting to start live reload endpoint to recover from previous Quarkus startup failure

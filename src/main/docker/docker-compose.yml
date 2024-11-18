@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  pgvector:
+    container_name: vaic
+    image: pgvector/pgvector:pg15
+    environment:
+      POSTGRES_DB: iga_veos_ai_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: test
+    ports:
+      - 5432:5432
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    ports:
+      - "3000:8080"
+    volumes:
+      - open-webui:/app/backend/data
+    environment:
+      - OLLAMA_BASE_URL=http://172.24.2.2:11434
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: always
+volumes:
+  open-webui:

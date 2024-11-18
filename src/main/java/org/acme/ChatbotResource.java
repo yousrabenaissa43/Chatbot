@@ -9,13 +9,12 @@ import jakarta.ws.rs.core.MediaType;
 public class ChatbotResource {
 
     @Inject
-    ChatbotService chatbotService ;}
+    ChatbotService chatbotService ;
 
-   /* @POST
+    @POST
     @Produces(MediaType.TEXT_PLAIN)
     @Consumes(MediaType.TEXT_PLAIN)
     public String chat(String body ) {
         return chatbotService.chat(body);
-    }
-}*/
+    }}
 

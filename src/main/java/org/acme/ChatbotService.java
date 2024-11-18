@@ -1,8 +1,10 @@
 package org.acme;
 
+import de.l3s.boilerpipe.document.TextDocument;
 import dev.langchain4j.service.SystemMessage;
 import dev.langchain4j.service.UserMessage;
 import io.quarkiverse.langchain4j.RegisterAiService;
+
 
 @RegisterAiService()
 public interface ChatbotService {
@@ -19,8 +21,12 @@ public interface ChatbotService {
     """)
    /* @UserMessage("""
             Je veux une {type} {colour} de {quality} qualité à peut prés {price}$.
-            
+
             """)
     public  String analyseMessage(String type, String colour,String quality ,int  price); */
     public String chat(@UserMessage  String message );
+
+
+
+
 }
