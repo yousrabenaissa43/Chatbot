@@ -29,13 +29,13 @@ public class KnowledgeEmbeddingsRepository {
 
     static final String SOURCE_TEXT = "DocumentId %s index %d : %s\n";
 
-    public void index(String content, Map<String,String> metadata) {
+    public void index(String content, Map<String,String> metadata){
         EmbeddingStoreIngestor ingestor = EmbeddingStoreIngestor.builder()
                 .embeddingStore(store)
                 .embeddingModel(embeddingModel)
                 .documentSplitter(recursive(1024, 100))
                 .build();
-        ingestor.ingest(new Document(content,Metadata.from(metadata)));
+        ingestor.ingest(new Document(content,Metadata.from(metadata))); //encapsulation
     }
     
     

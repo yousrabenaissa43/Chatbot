@@ -42,10 +42,7 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-hibernate-orm</artifactId>
         </dependency>
-        <dependency>
-            <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-liquibase</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>de.l3s.boilerpipe</groupId>
             <artifactId>boilerpipe</artifactId>
@@ -57,10 +54,7 @@
             <artifactId>quarkus-langchain4j-ollama</artifactId>
             <version>0.20.3</version>
         </dependency>
-        <dependency>
-            <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-scheduler</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-smallrye-fault-tolerance</artifactId>

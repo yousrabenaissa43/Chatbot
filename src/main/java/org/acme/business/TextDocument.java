@@ -11,7 +11,7 @@ public class TextDocument {
 
     public String tenantId;
 
-
+    public String title;
     public String content;
 
 

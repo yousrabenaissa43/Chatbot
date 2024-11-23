@@ -10,7 +10,7 @@ import jakarta.enterprise.context.ApplicationScoped;
 import java.util.List;
 
 //@RegisterAiService(tools = KnowledgeRepository.class)
-//@RegisterAiService
+@RegisterAiService
 @ApplicationScoped
 public interface AiService {
     @SystemMessage("""

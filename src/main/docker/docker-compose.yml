@@ -3,13 +3,13 @@ version: '3'
 services:
   pgvector:
     container_name: vaic
-    image: pgvector/pgvector:pg15
+    image: pgvector/pgvector:pg13
     environment:
       POSTGRES_DB: iga_veos_ai_db
-      POSTGRES_USER: postgres
+      POSTGRES_USER:  postgres
       POSTGRES_PASSWORD: test
     ports:
-      - 5432:5432
+      - "5432:5432"
   open-webui:
     image: ghcr.io/open-webui/open-webui:main
     container_name: open-webui
