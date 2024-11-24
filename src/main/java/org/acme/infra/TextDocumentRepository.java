@@ -25,10 +25,6 @@ public class TextDocumentRepository {
     public TextDocument findById(UUID id) {
         return em.find(TextDocument.class, id);
     }
-    public List<TextDocument> findByTenantId(String tenantId) {
-        return em.createQuery("FROM TextDocument WHERE tenantId = :tenantId", TextDocument.class)
-                .setParameter("tenantId", tenantId)
-                .getResultList();
-    }
+
 
 }

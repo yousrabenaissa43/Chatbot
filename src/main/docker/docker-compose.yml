@@ -18,7 +18,7 @@ services:
     volumes:
       - open-webui:/app/backend/data
     environment:
-      - OLLAMA_BASE_URL=http://172.24.2.2:11434
+      - OLLAMA_BASE_URL=http://localhost:11434
     extra_hosts:
       - "host.docker.internal:host-gateway"
     restart: always

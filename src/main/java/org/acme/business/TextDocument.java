@@ -9,10 +9,7 @@ public class TextDocument {
     @GeneratedValue(strategy = GenerationType.AUTO)
     public UUID id;
 
-    public String tenantId;
-
-    public String title;
+    public String title ;
     public String content;
-
 
 }

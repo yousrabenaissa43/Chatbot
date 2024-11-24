@@ -1,184 +1,180 @@
-2024-11-24 00:15:53,138 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] WARN  [io.qua.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.langchain4j.ollama.embedding-model.model-name" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
-2024-11-24 00:15:53,139 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] WARN  [io.qua.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.langchain4j.ollama.chat-model.model-name" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
-2024-11-24 00:15:53,139 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] WARN  [io.qua.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.http.client.timeout" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
-2024-11-24 00:15:56,057 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.sch.run.SimpleScheduler] (Quarkus Main Thread) No scheduled business methods found - Simple scheduler will not be started
-2024-11-24 00:15:56,178 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.quarkus] (Quarkus Main Thread) vaic 0.2.0 on JVM (powered by Quarkus 3.15.1) started in 7.704s. Listening on: http://localhost:8080
-2024-11-24 00:15:56,179 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
-2024-11-24 00:15:56,180 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, awt, cdi, hibernate-orm, hibernate-validator, jdbc-postgresql, langchain4j, langchain4j-ollama, langchain4j-pgvector, liquibase, micrometer, narayana-jta, poi, qute, rest, rest-client, rest-client-jackson, rest-jackson, scheduler, smallrye-context-propagation, smallrye-fault-tolerance, smallrye-openapi, swagger-ui, tika, vertx, web-dependency-locator]
-2024-11-24 00:15:58,234 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui HTTP/1.1" 302 -
-2024-11-24 00:15:58,245 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/index.html HTTP/1.1" 200 25233
-2024-11-24 00:15:58,246 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/index.html HTTP/1.1" 200 25233
-2024-11-24 00:15:58,274 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-header.js HTTP/1.1" 200 8063
-2024-11-24 00:15:58,274 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/icon/font-awesome.js HTTP/1.1" 200 232
-2024-11-24 00:15:58,279 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-footer.js HTTP/1.1" 200 11644
-2024-11-24 00:15:58,280 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-menu.js HTTP/1.1" 200 8420
-2024-11-24 00:15:58,286 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/quarkus-logo.png HTTP/1.1" 200 6206
-2024-11-24 00:15:58,291 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/controller/router-controller.js HTTP/1.1" 200 8276
-2024-11-24 00:15:58,293 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/controller/notifier.js HTTP/1.1" 200 3230
-2024-11-24 00:15:58,297 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/state/theme-state.js HTTP/1.1" 200 1384
-2024-11-24 00:15:58,300 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/state/devui-state.js HTTP/1.1" 200 3255
-2024-11-24 00:15:58,306 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-extension-link.js HTTP/1.1" 200 7274
-2024-11-24 00:15:58,314 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-theme-switch.js HTTP/1.1" 200 2989
-2024-11-24 00:15:58,322 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/icon/font-awesome-brands.js HTTP/1.1" 200 604492
-2024-11-24 00:15:58,327 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/icon/font-awesome-regular.js HTTP/1.1" 200 190548
-2024-11-24 00:15:58,343 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/icon/font-awesome-solid.js HTTP/1.1" 200 1477090
-2024-11-24 00:15:58,360 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/controller/log-controller.js HTTP/1.1" 200 4258
-2024-11-24 00:15:58,401 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/controller/storage-controller.js HTTP/1.1" 200 557
-2024-11-24 00:15:58,418 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-ws-status.js HTTP/1.1" 200 549
-2024-11-24 00:15:58,445 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/devui-data.js HTTP/1.1" 200 428798
-2024-11-24 00:15:58,450 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/state/connection-state.js HTTP/1.1" 200 2390
-2024-11-24 00:15:58,469 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-hot-reload-element.js HTTP/1.1" 200 892
-2024-11-24 00:15:58,477 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/controller/jsonrpc.js HTTP/1.1" 200 14065
-2024-11-24 00:15:58,560 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/devui-jsonrpc-data.js HTTP/1.1" 200 3853
-2024-11-24 00:15:58,768 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-configuration.js HTTP/1.1" 200 18043
-2024-11-24 00:15:58,768 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-extensions.js HTTP/1.1" 200 8167
-2024-11-24 00:15:58,773 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-endpoints.js HTTP/1.1" 200 3040
-2024-11-24 00:15:58,773 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-configuration-editor.js HTTP/1.1" 200 3539
-2024-11-24 00:15:58,777 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-continuous-testing.js HTTP/1.1" 200 13791
-2024-11-24 00:15:58,778 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-routes.js HTTP/1.1" 200 4395
-2024-11-24 00:15:58,780 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-build-steps.js HTTP/1.1" 200 6493
-2024-11-24 00:15:58,781 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-dev-services.js HTTP/1.1" 200 5184
-2024-11-24 00:15:58,786 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-readme.js HTTP/1.1" 200 1055
-2024-11-24 00:15:58,786 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-build-items.js HTTP/1.1" 200 3405
-2024-11-24 00:15:58,790 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-dependencies.js HTTP/1.1" 200 9303
-2024-11-24 00:15:58,795 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-welcome.js HTTP/1.1" 200 245473
-2024-11-24 00:15:58,864 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-test-log.js HTTP/1.1" 200 392
-2024-11-24 00:15:58,864 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-server-log.js HTTP/1.1" 200 28002
-2024-11-24 00:15:58,879 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/io.quarkus.quarkus-scheduler/qwc-scheduler-log.js HTTP/1.1" 200 5128
-2024-11-24 00:15:58,949 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-extension.js HTTP/1.1" 200 9700
-2024-11-24 00:15:58,950 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qui/qui-ide-link.js HTTP/1.1" 200 3517
-2024-11-24 00:15:58,955 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/echarts/echarts-horizontal-stacked-bar.js HTTP/1.1" 200 3086
-2024-11-24 00:15:58,955 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-no-data.js HTTP/1.1" 200 1263
-2024-11-24 00:15:58,960 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-build-step-graph.js HTTP/1.1" 200 7156
-2024-11-24 00:15:58,962 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:58 +0100] "GET /q/dev-ui/qwc/qwc-build-steps-execution-graph.js HTTP/1.1" 200 3175
-2024-11-24 00:15:59,003 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/qwc/qwc-abstract-log-element.js HTTP/1.1" 200 1636
-2024-11-24 00:15:59,037 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/echarts/echarts-abstract-canvas.js HTTP/1.1" 200 2715
-2024-11-24 00:15:59,042 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/echarts/echarts-bar-stack.js HTTP/1.1" 200 3915
-2024-11-24 00:15:59,091 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/echarts/echarts-force-graph.js HTTP/1.1" 200 3338
-2024-11-24 00:15:59,295 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-arc/qwc-arc-observers.js HTTP/1.1" 200 4163
-2024-11-24 00:15:59,300 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-arc/qwc-arc-interceptors.js HTTP/1.1" 200 3574
-2024-11-24 00:15:59,304 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-arc/qwc-arc-beans.js HTTP/1.1" 200 6441
-2024-11-24 00:15:59,308 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-arc/qwc-arc-removed-components.js HTTP/1.1" 200 7055
-2024-11-24 00:15:59,308 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-hibernate-orm/hibernate-orm-persistence-units.js HTTP/1.1" 200 5912
-2024-11-24 00:15:59,313 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-hibernate-orm/hibernate-orm-entity-types.js HTTP/1.1" 200 2807
-2024-11-24 00:15:59,316 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-datasource/qwc-datasources-reset.js HTTP/1.1" 200 2915
-2024-11-24 00:15:59,316 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-hibernate-orm/hibernate-orm-named-queries.js HTTP/1.1" 200 3403
-2024-11-24 00:15:59,322 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkiverse.langchain4j.quarkus-langchain4j-core/qwc-aiservices.js HTTP/1.1" 200 2038
-2024-11-24 00:15:59,325 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkiverse.langchain4j.quarkus-langchain4j-core/qwc-embedding-store.js HTTP/1.1" 200 4819
-2024-11-24 00:15:59,327 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkiverse.langchain4j.quarkus-langchain4j-core/qwc-tools.js HTTP/1.1" 200 1635
-2024-11-24 00:15:59,329 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkiverse.langchain4j.quarkus-langchain4j-core/qwc-chat.js HTTP/1.1" 200 14668
-2024-11-24 00:15:59,330 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkiverse.langchain4j.quarkus-langchain4j-core/qwc-open-webui.js HTTP/1.1" 200 11393
-2024-11-24 00:15:59,334 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/qwc/qwc-external-page.js HTTP/1.1" 200 4489
-2024-11-24 00:15:59,335 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-liquibase/qwc-liquibase-datasources.js HTTP/1.1" 200 4468
-2024-11-24 00:15:59,340 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-qute/qwc-qute-extension-methods.js HTTP/1.1" 200 2795
-2024-11-24 00:15:59,340 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-qute/qwc-qute-templates.js HTTP/1.1" 200 2695
-2024-11-24 00:15:59,345 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-rest/qwc-resteasy-reactive-endpoint-scores.js HTTP/1.1" 200 6530
-2024-11-24 00:15:59,345 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-rest/qwc-resteasy-reactive-exception-mappers.js HTTP/1.1" 200 1535
-2024-11-24 00:15:59,348 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-rest/qwc-resteasy-reactive-parameter-converter-providers.js HTTP/1.1" 200 1521
-2024-11-24 00:15:59,351 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-rest-client/qwc-rest-client-clients.js HTTP/1.1" 200 2919
-2024-11-24 00:15:59,351 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-scheduler/qwc-scheduler-scheduled-methods.js HTTP/1.1" 200 10280
-2024-11-24 00:15:59,359 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-web-dependency-locator/qwc-web-dependency-locator-libraries.js HTTP/1.1" 200 4329
-2024-11-24 00:15:59,364 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-smallrye-fault-tolerance/qwc-fault-tolerance-methods.js HTTP/1.1" 200 8028
-2024-11-24 00:15:59,366 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkiverse.tika.quarkus-tika/qwc-tika-card.js HTTP/1.1" 200 16703
-2024-11-24 00:15:59,370 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkiverse.poi.quarkus-poi/qwc-poi-card.js HTTP/1.1" 200 16617
-2024-11-24 00:15:59,374 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-caffeine/qwc-caffeine-card.js HTTP/1.1" 200 7229
-2024-11-24 00:15:59,375 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-liquibase/qwc-liquibase-card.js HTTP/1.1" 200 4088
-2024-11-24 00:15:59,508 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/devui-data.js?1732403759498 HTTP/1.1" 200 428798
-2024-11-24 00:15:59,604 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-arc/qwc-arc-bean-graph.js HTTP/1.1" 200 6649
-2024-11-24 00:15:59,611 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-arc-data.js HTTP/1.1" 200 1505337
-2024-11-24 00:15:59,761 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/form-layout/24.4.5/vaadin-form-layout.js HTTP/1.1" 200 90
-2024-11-24 00:15:59,761 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/text-area/24.4.5/vaadin-text-area.js HTTP/1.1" 200 87
-2024-11-24 00:15:59,767 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-datasource-data.js HTTP/1.1" 200 94
-2024-11-24 00:15:59,769 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/qui-alert/1.0.4/qui-alert.js HTTP/1.1" 200 5495
-2024-11-24 00:15:59,774 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkiverse.langchain4j.quarkus-langchain4j-core-data.js HTTP/1.1" 200 757
-2024-11-24 00:15:59,776 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/message-input/24.4.5/vaadin-message-input.js HTTP/1.1" 200 94
-2024-11-24 00:15:59,779 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/message-list/24.4.5/vaadin-message-list.js HTTP/1.1" 200 92
-2024-11-24 00:15:59,783 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/icons/24.4.5/vaadin-iconset.js HTTP/1.1" 200 241816
-2024-11-24 00:15:59,783 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/confirm-dialog/24.4.5/vaadin-confirm-dialog.js HTTP/1.1" 200 96
-2024-11-24 00:15:59,786 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-qute-data.js HTTP/1.1" 200 6379
-2024-11-24 00:15:59,787 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/echarts/echarts-gauge-grade.js HTTP/1.1" 200 5399
-2024-11-24 00:15:59,790 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-web-dependency-locator-data.js HTTP/1.1" 200 482449
-2024-11-24 00:15:59,793 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/grid/24.4.5/vaadin-grid-tree-column.js HTTP/1.1" 200 101
-2024-11-24 00:15:59,796 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkiverse.tika.quarkus-tika-data.js HTTP/1.1" 200 769
-2024-11-24 00:15:59,797 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkiverse.poi.quarkus-poi-data.js HTTP/1.1" 200 759
-2024-11-24 00:15:59,802 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-caffeine-data.js HTTP/1.1" 200 755
-2024-11-24 00:15:59,803 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/dev-ui/io.quarkus.quarkus-liquibase-data.js HTTP/1.1" 200 1451
-2024-11-24 00:15:59,870 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/form-layout/24.4.5/src/vaadin-form-layout.js HTTP/1.1" 200 17567
-2024-11-24 00:15:59,870 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/form-layout/24.4.5/theme/lumo/vaadin-form-layout.js HTTP/1.1" 200 83
-2024-11-24 00:15:59,895 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/text-area/24.4.5/theme/lumo/vaadin-text-area.js HTTP/1.1" 200 244
-2024-11-24 00:15:59,895 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/text-area/24.4.5/src/vaadin-text-area.js HTTP/1.1" 200 4208
-2024-11-24 00:15:59,900 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/message-input/24.4.5/src/vaadin-message-input.js HTTP/1.1" 200 6277
-2024-11-24 00:15:59,900 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/message-input/24.4.5/theme/lumo/vaadin-message-input.js HTTP/1.1" 200 199
-2024-11-24 00:15:59,905 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/message-list/24.4.5/theme/lumo/vaadin-message-list.js HTTP/1.1" 200 85
-2024-11-24 00:15:59,906 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/message-list/24.4.5/src/vaadin-message-list.js HTTP/1.1" 200 5872
-2024-11-24 00:15:59,909 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/confirm-dialog/24.4.5/theme/lumo/vaadin-confirm-dialog.js HTTP/1.1" 200 142
-2024-11-24 00:15:59,911 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/confirm-dialog/24.4.5/src/vaadin-confirm-dialog.js HTTP/1.1" 200 4368
-2024-11-24 00:15:59,916 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/icon/24.4.5/vaadin-iconset.js HTTP/1.1" 200 118
-2024-11-24 00:15:59,926 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/grid/24.4.5/theme/lumo/vaadin-grid-tree-column.js HTTP/1.1" 200 86
-2024-11-24 00:15:59,930 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/grid/24.4.5/src/vaadin-grid-tree-column.js HTTP/1.1" 200 1031
-2024-11-24 00:15:59,946 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:15:59 +0100] "GET /q/_static/form-layout/24.4.5/theme/lumo/vaadin-form-layout-styles.js HTTP/1.1" 200 316
-2024-11-24 00:16:00,009 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/text-area/24.4.5/theme/lumo/vaadin-text-area-styles.js HTTP/1.1" 200 2223
-2024-11-24 00:16:00,010 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/text-area/24.4.5/src/vaadin-text-area-styles.js HTTP/1.1" 200 1562
-2024-11-24 00:16:00,015 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/text-area/24.4.5/src/vaadin-text-area-mixin.js HTTP/1.1" 200 6925
-2024-11-24 00:16:00,020 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/message-input/24.4.5/theme/lumo/vaadin-message-input-styles.js HTTP/1.1" 200 539
-2024-11-24 00:16:00,037 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/message-list/24.4.5/theme/lumo/vaadin-message-list-styles.js HTTP/1.1" 200 400
-2024-11-24 00:16:00,037 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/lit/3.2.0/directives/if-defined.js HTTP/1.1" 200 87
-2024-11-24 00:16:00,047 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/message-list/24.4.5/src/vaadin-message.js HTTP/1.1" 200 5948
-2024-11-24 00:16:00,055 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/confirm-dialog/24.4.5/theme/lumo/vaadin-confirm-dialog-styles.js HTTP/1.1" 200 1357
-2024-11-24 00:16:00,055 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/confirm-dialog/24.4.5/src/vaadin-confirm-dialog-overlay.js HTTP/1.1" 200 3810
-2024-11-24 00:16:00,062 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/grid/24.4.5/theme/lumo/vaadin-grid-tree-toggle.js HTTP/1.1" 200 93
-2024-11-24 00:16:00,062 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/confirm-dialog/24.4.5/src/vaadin-confirm-dialog-mixin.js HTTP/1.1" 200 12921
-2024-11-24 00:16:00,068 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/grid/24.4.5/src/vaadin-grid-tree-column-mixin.js HTTP/1.1" 200 2609
-2024-11-24 00:16:00,068 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/grid/24.4.5/src/vaadin-grid-tree-toggle.js HTTP/1.1" 200 2600
-2024-11-24 00:16:00,108 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/field-base/24.4.5/src/text-area-controller.js HTTP/1.1" 200 892
-2024-11-24 00:16:00,150 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/message-list/24.4.5/theme/lumo/vaadin-message-styles.js HTTP/1.1" 200 1831
-2024-11-24 00:16:00,152 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/lit-html/3.2.0/directives/if-defined.js HTTP/1.1" 200 212
-2024-11-24 00:16:00,159 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/confirm-dialog/24.4.5/src/vaadin-confirm-dialog-base-mixin.js HTTP/1.1" 200 1745
-2024-11-24 00:16:00,159 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/avatar/24.4.5/src/vaadin-avatar.js HTTP/1.1" 200 3099
-2024-11-24 00:16:00,163 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/grid/24.4.5/src/vaadin-grid-tree-toggle-mixin.js HTTP/1.1" 200 4823
-2024-11-24 00:16:00,163 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/confirm-dialog/24.4.5/src/vaadin-confirm-dialog-overlay-styles.js HTTP/1.1" 200 639
-2024-11-24 00:16:00,171 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/grid/24.4.5/theme/lumo/vaadin-grid-tree-toggle-styles.js HTTP/1.1" 200 3299
-2024-11-24 00:16:00,200 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/avatar/24.4.5/theme/lumo/vaadin-avatar-styles.js HTTP/1.1" 200 2019
-2024-11-24 00:16:00,203 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/avatar/24.4.5/src/vaadin-avatar-icons.js HTTP/1.1" 200 1879
-2024-11-24 00:16:00,205 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/avatar/24.4.5/src/vaadin-avatar-mixin.js HTTP/1.1" 200 6360
-2024-11-24 00:16:00,212 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/avatar/24.4.5/src/vaadin-avatar-styles.js HTTP/1.1" 200 1343
-2024-11-24 00:16:00,275 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:00:16:00 +0100] "GET /q/_static/vaadin-lumo-styles/24.4.5/user-colors.js HTTP/1.1" 200 965
-2024-11-24 00:16:15,950 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:00:16:15 +0100] "GET /KnowledgeResource/chatWithResources HTTP/1.1" 405 -
-2024-11-24 00:17:00,070 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] WARN  [io.qua.lan.oll.OllamaChatLanguageModel] (executor-thread-11) Exception while calling model listener: java.lang.NullPointerException: Cannot invoke "dev.langchain4j.model.chat.listener.ChatModelResponse.aiMessage()" because the return value of "dev.langchain4j.model.chat.listener.ChatModelErrorContext.partialResponse()" is null
-	at io.quarkiverse.langchain4j.runtime.listeners.MetricsChatModelListener.onError(MetricsChatModelListener.java:110)
-	at io.quarkiverse.langchain4j.ollama.OllamaChatLanguageModel.lambda$generate$2(OllamaChatLanguageModel.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at io.quarkiverse.langchain4j.ollama.OllamaChatLanguageModel.generate(OllamaChatLanguageModel.java:120)
-	at io.quarkiverse.langchain4j.ollama.OllamaChatLanguageModel.generate(OllamaChatLanguageModel.java:59)
-	at dev.langchain4j.model.chat.ChatLanguageModel_XNMsOaekknG7BdNZ5YSUkjh1SqE_Synthetic_ClientProxy.generate(Unknown Source)
-	at io.quarkiverse.langchain4j.runtime.devui.ChatJsonRPCService.chat(ChatJsonRPCService.java:230)
-	at io.quarkiverse.langchain4j.runtime.devui.ChatJsonRPCService_Subclass.chat$$superforward(Unknown Source)
-	at io.quarkiverse.langchain4j.runtime.devui.ChatJsonRPCService_Subclass$$function$$2.apply(Unknown Source)
-	at io.quarkus.arc.impl.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:73)
-	at io.quarkus.arc.impl.AroundInvokeInvocationContext.proceed(AroundInvokeInvocationContext.java:62)
-	at io.quarkus.arc.impl.ActivateRequestContextInterceptor.invoke(ActivateRequestContextInterceptor.java:129)
-	at io.quarkus.arc.impl.ActivateRequestContextInterceptor.aroundInvoke(ActivateRequestContextInterceptor.java:33)
-	at io.quarkus.arc.impl.ActivateRequestContextInterceptor_Bean.intercept(Unknown Source)
-	at io.quarkus.arc.impl.InterceptorInvocation.invoke(InterceptorInvocation.java:42)
-	at io.quarkus.arc.impl.AroundInvokeInvocationContext.perform(AroundInvokeInvocationContext.java:30)
-	at io.quarkus.arc.impl.InvocationContexts.performAroundInvoke(InvocationContexts.java:27)
-	at io.quarkiverse.langchain4j.runtime.devui.ChatJsonRPCService_Subclass.chat(Unknown Source)
-	at io.quarkiverse.langchain4j.runtime.devui.ChatJsonRPCService_ClientProxy.chat(Unknown Source)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.quarkus.devui.runtime.comms.JsonRpcRouter.lambda$invoke$12(JsonRpcRouter.java:296)
-	at io.smallrye.mutiny.unchecked.UncheckedSupplier.lambda$toSupplier$0(UncheckedSupplier.java:41)
-	at io.smallrye.context.impl.wrappers.SlowContextualSupplier.get(SlowContextualSupplier.java:21)
-	at io.smallrye.mutiny.operators.uni.builders.UniCreateFromItemSupplier.subscribe(UniCreateFromItemSupplier.java:28)
-	at io.smallrye.mutiny.operators.AbstractUni.subscribe(AbstractUni.java:36)
-	at io.smallrye.mutiny.operators.uni.UniRunSubscribeOn.lambda$subscribe$0(UniRunSubscribeOn.java:27)
-	at io.quarkus.vertx.core.runtime.VertxCoreRecorder$14.runWith(VertxCoreRecorder.java:635)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.doRunWith(EnhancedQueueExecutor.java:2516)
-	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2495)
-	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1521)
-	at org.jboss.threads.DelegatingRunnable.run(DelegatingRunnable.java:11)
-	at org.jboss.threads.ThreadLocalResettingRunnable.run(ThreadLocalResettingRunnable.java:11)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-2024-11-24 00:17:00,078 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[6864] WARN  [io.qua.lan.run.dev.ChatJsonRPCService] (executor-thread-11) jakarta.ws.rs.ProcessingException: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection timed out: getsockopt: /172.24.2.2:11434
+2024-11-24 15:13:29,877 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] WARN  [io.qua.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.langchain4j.ollama.embedding-model.model-name" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+2024-11-24 15:13:29,877 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] WARN  [io.qua.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.langchain4j.ollama.chat-model.model-name" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+2024-11-24 15:13:29,878 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] WARN  [io.qua.config] (Quarkus Main Thread) Unrecognized configuration key "quarkus.http.client.timeout" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+2024-11-24 15:13:34,901 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.quarkus] (Quarkus Main Thread) vaic 0.2.0 on JVM (powered by Quarkus 3.15.1) started in 24.896s. Listening on: http://localhost:8080
+2024-11-24 15:13:34,904 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2024-11-24 15:13:34,905 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, awt, cdi, hibernate-orm, hibernate-validator, jdbc-postgresql, langchain4j, langchain4j-ollama, langchain4j-pgvector, micrometer, narayana-jta, poi, qute, rest, rest-client, rest-client-jackson, rest-jackson, smallrye-context-propagation, smallrye-fault-tolerance, smallrye-openapi, swagger-ui, tika, vertx, web-dependency-locator]
+2024-11-24 15:13:58,862 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:58 +0100] "GET /q/dev-ui HTTP/1.1" 302 -
+2024-11-24 15:13:58,878 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:58 +0100] "GET /q/dev-ui/index.html HTTP/1.1" 200 25140
+2024-11-24 15:13:58,880 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:58 +0100] "GET /q/dev-ui/index.html HTTP/1.1" 200 25140
+2024-11-24 15:13:58,932 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:58 +0100] "GET /q/dev-ui/icon/font-awesome.js HTTP/1.1" 200 232
+2024-11-24 15:13:58,932 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:13:58 +0100] "GET /q/dev-ui/qwc/qwc-header.js HTTP/1.1" 200 8063
+2024-11-24 15:13:58,937 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:58 +0100] "GET /q/dev-ui/qwc/qwc-menu.js HTTP/1.1" 200 8420
+2024-11-24 15:13:58,946 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:58 +0100] "GET /q/dev-ui/qwc/qwc-footer.js HTTP/1.1" 200 11644
+2024-11-24 15:13:58,948 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:13:58 +0100] "GET /q/dev-ui/quarkus-logo.png HTTP/1.1" 200 6206
+2024-11-24 15:13:58,983 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:13:58 +0100] "GET /q/dev-ui/icon/font-awesome-brands.js HTTP/1.1" 200 604492
+2024-11-24 15:13:58,983 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:58 +0100] "GET /q/dev-ui/icon/font-awesome-regular.js HTTP/1.1" 200 190548
+2024-11-24 15:13:59,011 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/icon/font-awesome-solid.js HTTP/1.1" 200 1477090
+2024-11-24 15:13:59,041 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/state/devui-state.js HTTP/1.1" 200 3255
+2024-11-24 15:13:59,083 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/controller/router-controller.js HTTP/1.1" 200 8276
+2024-11-24 15:13:59,107 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/controller/storage-controller.js HTTP/1.1" 200 557
+2024-11-24 15:13:59,132 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/controller/notifier.js HTTP/1.1" 200 3230
+2024-11-24 15:13:59,135 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/state/theme-state.js HTTP/1.1" 200 1384
+2024-11-24 15:13:59,156 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/qwc/qwc-extension-link.js HTTP/1.1" 200 7274
+2024-11-24 15:13:59,156 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/qwc/qwc-theme-switch.js HTTP/1.1" 200 2989
+2024-11-24 15:13:59,262 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/controller/log-controller.js HTTP/1.1" 200 4258
+2024-11-24 15:13:59,280 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/qwc/qwc-ws-status.js HTTP/1.1" 200 549
+2024-11-24 15:13:59,310 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/devui-data.js HTTP/1.1" 200 405447
+2024-11-24 15:13:59,312 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/state/connection-state.js HTTP/1.1" 200 2390
+2024-11-24 15:13:59,332 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/qwc/qwc-hot-reload-element.js HTTP/1.1" 200 892
+2024-11-24 15:13:59,342 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/controller/jsonrpc.js HTTP/1.1" 200 14065
+2024-11-24 15:13:59,420 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:13:59 +0100] "GET /q/dev-ui/devui-jsonrpc-data.js HTTP/1.1" 200 3315
+2024-11-24 15:14:00,079 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-extensions.js HTTP/1.1" 200 8167
+2024-11-24 15:14:00,081 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-configuration-editor.js HTTP/1.1" 200 3539
+2024-11-24 15:14:00,086 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-configuration.js HTTP/1.1" 200 18043
+2024-11-24 15:14:00,086 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-routes.js HTTP/1.1" 200 4395
+2024-11-24 15:14:00,094 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-dev-services.js HTTP/1.1" 200 5184
+2024-11-24 15:14:00,095 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-continuous-testing.js HTTP/1.1" 200 13791
+2024-11-24 15:14:00,110 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-endpoints.js HTTP/1.1" 200 3040
+2024-11-24 15:14:00,110 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-build-steps.js HTTP/1.1" 200 6493
+2024-11-24 15:14:00,114 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-readme.js HTTP/1.1" 200 1055
+2024-11-24 15:14:00,114 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-build-items.js HTTP/1.1" 200 3405
+2024-11-24 15:14:00,120 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-dependencies.js HTTP/1.1" 200 9303
+2024-11-24 15:14:00,124 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-welcome.js HTTP/1.1" 200 245473
+2024-11-24 15:14:00,147 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-server-log.js HTTP/1.1" 200 28002
+2024-11-24 15:14:00,147 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-test-log.js HTTP/1.1" 200 392
+2024-11-24 15:14:00,455 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-extension.js HTTP/1.1" 200 9700
+2024-11-24 15:14:00,458 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qui/qui-ide-link.js HTTP/1.1" 200 3517
+2024-11-24 15:14:00,462 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/echarts/echarts-horizontal-stacked-bar.js HTTP/1.1" 200 3086
+2024-11-24 15:14:00,467 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-build-step-graph.js HTTP/1.1" 200 7156
+2024-11-24 15:14:00,469 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-no-data.js HTTP/1.1" 200 1263
+2024-11-24 15:14:00,470 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-build-steps-execution-graph.js HTTP/1.1" 200 3175
+2024-11-24 15:14:00,490 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/favicon.ico HTTP/1.1" 200 4286
+2024-11-24 15:14:00,490 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/qwc/qwc-abstract-log-element.js HTTP/1.1" 200 1636
+2024-11-24 15:14:00,626 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/echarts/echarts-abstract-canvas.js HTTP/1.1" 200 2715
+2024-11-24 15:14:00,629 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/echarts/echarts-force-graph.js HTTP/1.1" 200 3338
+2024-11-24 15:14:00,632 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:00 +0100] "GET /q/dev-ui/echarts/echarts-bar-stack.js HTTP/1.1" 200 3915
+2024-11-24 15:14:01,652 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-arc/qwc-arc-interceptors.js HTTP/1.1" 200 3574
+2024-11-24 15:14:01,658 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-datasource/qwc-datasources-reset.js HTTP/1.1" 200 2915
+2024-11-24 15:14:01,660 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-arc/qwc-arc-removed-components.js HTTP/1.1" 200 7055
+2024-11-24 15:14:01,664 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-arc/qwc-arc-beans.js HTTP/1.1" 200 6441
+2024-11-24 15:14:01,664 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-arc/qwc-arc-observers.js HTTP/1.1" 200 4163
+2024-11-24 15:14:01,678 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-hibernate-orm/hibernate-orm-persistence-units.js HTTP/1.1" 200 5912
+2024-11-24 15:14:01,678 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-hibernate-orm/hibernate-orm-entity-types.js HTTP/1.1" 200 2807
+2024-11-24 15:14:01,688 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-hibernate-orm/hibernate-orm-named-queries.js HTTP/1.1" 200 3403
+2024-11-24 15:14:01,693 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkiverse.langchain4j.quarkus-langchain4j-core/qwc-aiservices.js HTTP/1.1" 200 2038
+2024-11-24 15:14:01,694 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkiverse.langchain4j.quarkus-langchain4j-core/qwc-tools.js HTTP/1.1" 200 1635
+2024-11-24 15:14:01,698 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkiverse.langchain4j.quarkus-langchain4j-core/qwc-embedding-store.js HTTP/1.1" 200 4819
+2024-11-24 15:14:01,698 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkiverse.langchain4j.quarkus-langchain4j-core/qwc-open-webui.js HTTP/1.1" 200 11393
+2024-11-24 15:14:01,702 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkiverse.langchain4j.quarkus-langchain4j-core/qwc-chat.js HTTP/1.1" 200 14668
+2024-11-24 15:14:01,702 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/qwc/qwc-external-page.js HTTP/1.1" 200 4489
+2024-11-24 15:14:01,713 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-qute/qwc-qute-templates.js HTTP/1.1" 200 2695
+2024-11-24 15:14:01,713 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-qute/qwc-qute-extension-methods.js HTTP/1.1" 200 2795
+2024-11-24 15:14:01,731 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-rest/qwc-resteasy-reactive-endpoint-scores.js HTTP/1.1" 200 6530
+2024-11-24 15:14:01,731 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-rest/qwc-resteasy-reactive-exception-mappers.js HTTP/1.1" 200 1535
+2024-11-24 15:14:01,739 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-rest/qwc-resteasy-reactive-parameter-converter-providers.js HTTP/1.1" 200 1521
+2024-11-24 15:14:01,742 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-rest-client/qwc-rest-client-clients.js HTTP/1.1" 200 2919
+2024-11-24 15:14:01,745 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-smallrye-fault-tolerance/qwc-fault-tolerance-methods.js HTTP/1.1" 200 8028
+2024-11-24 15:14:01,749 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-web-dependency-locator/qwc-web-dependency-locator-libraries.js HTTP/1.1" 200 4329
+2024-11-24 15:14:01,752 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkiverse.tika.quarkus-tika/qwc-tika-card.js HTTP/1.1" 200 16703
+2024-11-24 15:14:01,756 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkiverse.poi.quarkus-poi/qwc-poi-card.js HTTP/1.1" 200 16617
+2024-11-24 15:14:01,760 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:01 +0100] "GET /q/dev-ui/io.quarkus.quarkus-caffeine/qwc-caffeine-card.js HTTP/1.1" 200 7229
+2024-11-24 15:14:02,122 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:02 +0100] "GET /q/dev-ui/io.quarkus.quarkus-arc-data.js HTTP/1.1" 200 1419462
+2024-11-24 15:14:02,131 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:02 +0100] "GET /q/dev-ui/io.quarkus.quarkus-arc/qwc-arc-bean-graph.js HTTP/1.1" 200 6649
+2024-11-24 15:14:02,136 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:02 +0100] "GET /q/dev-ui/echarts/echarts-gauge-grade.js HTTP/1.1" 200 5399
+2024-11-24 15:14:02,144 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:02 +0100] "GET /q/dev-ui/devui-data.js?1732457642052 HTTP/1.1" 200 405447
+2024-11-24 15:14:02,148 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:02 +0100] "GET /q/dev-ui/io.quarkus.quarkus-web-dependency-locator-data.js HTTP/1.1" 200 482449
+2024-11-24 15:14:02,151 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:02 +0100] "GET /q/dev-ui/io.quarkus.quarkus-datasource-data.js HTTP/1.1" 200 94
+2024-11-24 15:14:02,154 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:02 +0100] "GET /q/dev-ui/io.quarkiverse.langchain4j.quarkus-langchain4j-core-data.js HTTP/1.1" 200 524
+2024-11-24 15:14:02,160 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:02 +0100] "GET /q/dev-ui/io.quarkus.quarkus-qute-data.js HTTP/1.1" 200 6379
+2024-11-24 15:14:02,177 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:02 +0100] "GET /q/dev-ui/io.quarkiverse.tika.quarkus-tika-data.js HTTP/1.1" 200 769
+2024-11-24 15:14:02,186 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-1) 127.0.0.1 - - [24/Nov/2024:15:14:02 +0100] "GET /q/dev-ui/io.quarkiverse.poi.quarkus-poi-data.js HTTP/1.1" 200 759
+2024-11-24 15:14:02,200 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.htt.access-log] (vert.x-eventloop-thread-2) 127.0.0.1 - - [24/Nov/2024:15:14:02 +0100] "GET /q/dev-ui/io.quarkus.quarkus-caffeine-data.js HTTP/1.1" 200 755
+2024-11-24 15:14:22,352 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.lan.oll.OllamaRestApi$OllamaLogger] (vert.x-eventloop-thread-1) Request:
+- method: POST
+- url: http://localhost:11434/api/chat
+- headers: [Accept: application/json], [Content-Type: application/json], [User-Agent: Quarkus REST Client], [content-length: 539]
+- body: {
+  "model" : "llama3.2:1b-instruct-q8_0",
+  "messages" : [ {
+    "role" : "system",
+    "content" : "You are an AI answering questions about some documents.\nYour response must be polite, and be relevant to the question.\nWhen you don't know, respond that you don't know the answer.\nAnswer in the same language as the question.\n"
+  }, {
+    "role" : "user",
+    "content" : "my name is yousra"
+  } ],
+  "tools" : [ ],
+  "options" : {
+    "temperature" : 0.0,
+    "top_k" : 40,
+    "top_p" : 0.9
+  },
+  "stream" : false
+}
+2024-11-24 15:14:29,613 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.lan.oll.OllamaRestApi$OllamaLogger] (vert.x-eventloop-thread-1) Response:
+- status code: 200
+- headers: [Content-Type: application/json; charset=utf-8], [Date: Sun, 24 Nov 2024 14:14:29 GMT], [Content-Length: 445]
+- body: {
+  "model" : "llama3.2:1b-instruct-q8_0",
+  "created_at" : "2024-11-24T14:14:29.5865287Z",
+  "message" : {
+    "role" : "assistant",
+    "content" : "Hello Yousra! It's nice to meet you. I'm here to help with any questions or topics you'd like to discuss. How can I assist you today?"
+  },
+  "done_reason" : "stop",
+  "done" : true,
+  "total_duration" : 7288297400,
+  "load_duration" : 113672700,
+  "prompt_eval_count" : 78,
+  "prompt_eval_duration" : 1729000000,
+  "eval_count" : 36,
+  "eval_duration" : 1860000000
+}
+2024-11-24 15:14:47,162 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.lan.oll.OllamaRestApi$OllamaLogger] (vert.x-eventloop-thread-1) Request:
+- method: POST
+- url: http://localhost:11434/api/chat
+- headers: [Accept: application/json], [Content-Type: application/json], [User-Agent: Quarkus REST Client], [content-length: 793]
+- body: {
+  "model" : "llama3.2:1b-instruct-q8_0",
+  "messages" : [ {
+    "role" : "system",
+    "content" : "You are an AI answering questions about some documents.\nYour response must be polite, and be relevant to the question.\nWhen you don't know, respond that you don't know the answer.\nAnswer in the same language as the question.\n"
+  }, {
+    "role" : "user",
+    "content" : "my name is yousra"
+  }, {
+    "role" : "assistant",
+    "content" : "Hello Yousra! It's nice to meet you. I'm here to help with any questions or topics you'd like to discuss. How can I assist you today?"
+  }, {
+    "role" : "user",
+    "content" : "what's my name ?"
+  } ],
+  "tools" : [ ],
+  "options" : {
+    "temperature" : 0.0,
+    "top_k" : 40,
+    "top_p" : 0.9
+  },
+  "stream" : false
+}
+2024-11-24 15:14:49,114 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.lan.oll.OllamaRestApi$OllamaLogger] (vert.x-eventloop-thread-1) Response:
+- status code: 200
+- headers: [Content-Type: application/json; charset=utf-8], [Date: Sun, 24 Nov 2024 14:14:49 GMT], [Content-Length: 388]
+- body: {
+  "model" : "llama3.2:1b-instruct-q8_0",
+  "created_at" : "2024-11-24T14:14:49.1115506Z",
+  "message" : {
+    "role" : "assistant",
+    "content" : "I don't know your name, Yousra. Is there something else I can help you with?"
+  },
+  "done_reason" : "stop",
+  "done" : true,
+  "total_duration" : 1949016300,
+  "load_duration" : 151824600,
+  "prompt_eval_count" : 128,
+  "prompt_eval_duration" : 787000000,
+  "eval_count" : 22,
+  "eval_duration" : 1002000000
+}
+2024-11-24 15:18:14,683 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Restarting quarkus due to changes in KnowledgeResource.class.
+2024-11-24 15:18:15,301 desktop-9kf8vjc C:\Program Files\Java\jdk-21\bin\java.exe[18624] INFO  [io.quarkus] (Quarkus Main Thread) vaic stopped in 0.601s
