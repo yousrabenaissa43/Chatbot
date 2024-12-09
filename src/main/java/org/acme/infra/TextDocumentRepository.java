@@ -26,5 +26,10 @@ public class TextDocumentRepository {
         return em.find(TextDocument.class, id);
     }
 
+    @Transactional
+    public List<TextDocument> getAllTextDocument(){
+        return em.createQuery("SELECT t FROM TextDocument t", TextDocument.class).getResultList();
+    }
+
 
 }

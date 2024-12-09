@@ -9,7 +9,7 @@ services:
       POSTGRES_USER:  postgres
       POSTGRES_PASSWORD: test
     ports:
-      - "5432:5432"
+      - "5433:5432"
   open-webui:
     image: ghcr.io/open-webui/open-webui:main
     container_name: open-webui
